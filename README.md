@@ -1,4 +1,4 @@
-# aibrake_monitor_script
+# airbrake_monitor_script
 To fetch the airbrake errors from the api and convert it into CSV and store it
 
 ## To run this program, you must follow these steps:
