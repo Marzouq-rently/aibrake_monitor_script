@@ -9,12 +9,12 @@ To fetch the airbrake from the api and convert it into CSV and store it
 <img width="1317" height="859" alt="image" src="https://github.com/user-attachments/assets/8de02e77-ac0b-42f8-890a-6e533e2a3996" />
   4. Add it to file in the place near the bearer:
 
-<pre>```ruby request['Authorization'] = 'Bearer your_token_here' ```</pre>
+<pre>request['Authorization'] = 'Bearer your_token_here'</pre>
 
 ### To get the Result
-  1. Navigate to the directory
+  1. Navigate to the directory in the terminal
   2. Run the command: 
 
-  <pre>```bash ruby airbrake_monitor.rb ```</pre>
+  <pre>ruby airbrake_monitor.rb</pre>
 
   3. A new CSV file will be stored in your local
