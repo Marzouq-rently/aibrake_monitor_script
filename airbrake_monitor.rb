@@ -1,14 +1,12 @@
+# frozen_string_literal: true
+
 require 'json'
 require 'csv'
 require 'net/http'
 require 'uri'
 require 'active_support/all'
 
-# Read your JSON from a string or file
-
-# json_string = File.read("airbrake.json")
-# data = JSON.parse(json_string)
-
+# CSV conversion method to convert the json to a CSV file and store in the current directory
 def csv_conversion(data, file_name)
   CSV.open("#{file_name}", "w") do |csv|
     # Header
